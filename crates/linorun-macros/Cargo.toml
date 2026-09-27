@@ -1,0 +1,21 @@
+[package]
+name = "linorun-macros"
+description = "Descriptor and typed service macros for linorun-core"
+documentation = "https://docs.rs/linorun-macros"
+readme = "../../README.md"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2.workspace = true
+quote.workspace = true
+syn.workspace = true
+
+[dev-dependencies]
+futures-executor.workspace = true
+linorun-core = { path = "../linorun-core" }

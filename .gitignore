@@ -1,0 +1,19 @@
+# Rust build output
+/target/
+
+# Local editor and tool files
+/.idea/
+/.vscode/
+/.playwright-mcp/
+*.swp
+*.swo
+*~
+
+# Operating system metadata
+.DS_Store
+Thumbs.db
+
+# Local environment files; keep the example template
+.env
+.env.*
+!.env.example

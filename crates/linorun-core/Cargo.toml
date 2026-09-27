@@ -1,0 +1,19 @@
+[package]
+name = "linorun-core"
+description = "Serialized runtime for reversible spatiotemporal component composition"
+documentation = "https://docs.rs/linorun-core"
+readme = "../../README.md"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+futures-channel.workspace = true
+futures-core.workspace = true
+futures-util.workspace = true
+linorun-macros = { version = "0.1.0", path = "../linorun-macros" }
+
+[dev-dependencies]
+futures-executor.workspace = true
+tokio.workspace = true

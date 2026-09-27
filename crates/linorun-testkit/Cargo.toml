@@ -1,0 +1,19 @@
+[package]
+name = "linorun-testkit"
+description = "Deterministic conformance test utilities for linorun-core"
+documentation = "https://docs.rs/linorun-testkit"
+readme = "../../README.md"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+futures-channel.workspace = true
+futures-core.workspace = true
+futures-util.workspace = true
+linorun-core.workspace = true
+
+[dev-dependencies]
+futures-executor.workspace = true
+linorun-macros = { path = "../linorun-macros" }
